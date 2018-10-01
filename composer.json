@@ -1,0 +1,15 @@
+{
+  "name": "patricia/quete_simple_mvc",
+  "authors": [
+    {
+      "name": "Patricia Batjom",
+      "email": "patriciabatjom@gmail.com"
+    }
+  ],
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "": "src/"
+    }
+  }
+}
