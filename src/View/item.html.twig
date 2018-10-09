@@ -1,0 +1,14 @@
+{% extends'layout.html.twig' %}
+
+  {% block title %}Simple MVC{% endblock %}
+
+
+    {% block content %}
+    <h1>Items</h1>
+    <ul>
+        {% for item in items %}
+            <li>{{ item.title }}</li>
+        {% endfor %}
+    </ul>
+    {% endblock %}
+
